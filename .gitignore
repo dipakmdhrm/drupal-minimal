@@ -28,24 +28,9 @@ web/sites/*/private
 # Ignore SimpleTest multi-site environment.
 web/sites/simpletest
 
-web/core
-web/profiles
-
-# If you prefer to store your .gitignore file in the sites/ folder, comment
-# or delete the previous settings and uncomment the following ones, instead.
-
-# Ignore configuration files that may contain sensitive information.
-# */settings*.php
-
-# Ignore paths that contain user-generated content.
-# */files
-# */private
-
-# Ignore SimpleTest multi-site environment.
-# simpletest
+# Scaffolding files
 /.editorconfig
 /.gitattributes
-
 web/.csslintrc
 web/.eslintignore
 web/.eslintrc.json
@@ -59,16 +44,16 @@ web/index.php
 web/robots.txt
 web/update.php
 web/web.config
-
 web/modules/README.txt
 web/themes/README.txt
-
 web/sites/README.txt
 web/sites/development.services.yml
 web/sites/example.settings.local.php
 web/sites/example.sites.php
-
 web/sites/default/default.services.yml
 web/sites/default/default.settings.php
-
 web/themes/README.txt
+
+# Core files
+web/core
+web/profiles
