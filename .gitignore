@@ -31,6 +31,7 @@ web/sites/simpletest
 # Scaffolding files
 /.editorconfig
 /.gitattributes
+recipes/README.txt
 web/.csslintrc
 web/.eslintignore
 web/.eslintrc.json
@@ -43,7 +44,6 @@ web/example.gitignore
 web/index.php
 web/robots.txt
 web/update.php
-web/web.config
 web/modules/README.txt
 web/themes/README.txt
 web/sites/README.txt
